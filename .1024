@@ -1,4 +1,0 @@
-components: ["filetree", "shell", "console"]
-run_command: HOST=0.0.0.0 PORT=8080 go run main.go
-
-# Action: Initialize the Development Environment
