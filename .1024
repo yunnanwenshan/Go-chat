@@ -1,3 +1,0 @@
-components: ["filetree", "shell", "console"]
-compile_command: go build -o myapp
-run_command: go run main.go
