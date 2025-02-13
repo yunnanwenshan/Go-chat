@@ -1,4 +1,6 @@
 .1024*
+!.1024
+.breakpoints
 .DS_Store
 Thumbs.db
 .env
@@ -15,7 +17,10 @@ yarn-error.log*
 .pnpm-debug.log*
 *.tsbuildinfo
 env/
-
+/bin/
+*.exe
+*.out
+*.test
 venv/
 **/__pycache__/
 *.py[cod]
@@ -23,9 +28,6 @@ venv/
 *.pyd
 .Python
 *.env
-*.exe
-*.out
-*.test
 *.sqlite
 *.db
 *.sql
